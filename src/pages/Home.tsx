@@ -12,12 +12,12 @@ interface Certificate {
   url: string
 }
 
-const profileImage = '/src/Image/profile.png'
-const foundationCert = '/src/Image/foundation.png'
-const chatgptCert = '/src/Image/chatgpt.png'
-const ibmCert = '/src/Image/ibm.png'
-const freecodeCert = '/src/Image/freecode.png'
-const geoCert = '/src/Image/geo.png'
+// const profileImage = '/src/Image/profile.png'
+// const foundationCert = '/src/Image/foundation.png'
+// const chatgptCert = '/src/Image/chatgpt.png'
+// const ibmCert = '/src/Image/ibm.png'
+// const freecodeCert = '/src/Image/freecode.png'
+// const geoCert = '/src/Image/geo.png'
 
 const Home = () => {
   const [selectedCertificate, setSelectedCertificate] = useState<Certificate | null>(null)
